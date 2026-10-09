@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SAT — Servei d'Assistència Tècnica | Bitecnic Automation SL</title>
+  <meta name="description" content="Servei d'Assistència Tècnica (SAT) de Bitecnic: diagnòstic i reparació de maquinari industrial, manteniment preventiu i correctiu, suport a distància, recanvis, revisions i auditories tècniques.">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="saltar" href="#contingut">Salta al contingut principal</a>
+
+  <header class="capcalera">
+    <div class="contenidor capcalera__interior">
+      <a class="logo" href="index.html">
+        <img src="assets/logo_web.png" alt="Bitecnic Automation SL — inici" width="1279" height="341">
+      </a>
+      <button class="nav__alternador" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Obre el menú de navegació</span>
+      </button>
+      <nav class="nav" id="menu-principal" aria-label="Menú principal">
+        <ul class="nav__llista">
+          <li><a class="nav__enllac" href="index.html">Inici</a></li>
+          <li><a class="nav__enllac" href="automatitzacions.html">Automatitzacions</a></li>
+          <li><a class="nav__enllac" href="sat.html" aria-current="page">SAT</a></li>
+          <li><a class="nav__enllac" href="nosaltres.html">Qui som</a></li>
+          <li><a class="nav__enllac" href="contacte.html">Contacte</a></li>
+          <li><a class="boto nav__cta" href="contacte.html">Demana pressupost</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contingut">
+    <!-- Hero intern -->
+    <section class="hero hero--intern">
+      <div class="contenidor">
+        <div class="hero__contingut">
+          <span class="etiqueta">Servei d'Assistència Tècnica</span>
+          <h1>Quan la producció s'atura, hi som</h1>
+          <p class="hero__subtitol">Diagnòstic ràpid, reparació eficaç i seguiment proper. El nostre SAT està pensat perquè les vostres màquines tornin a produir al més aviat possible i perquè les avaries no es repeteixin.</p>
+          <div class="hero__accions">
+            <a class="boto" href="tel:+34936940054">Truqueu-nos: +34 93 694 00 54</a>
+            <a class="boto boto--secundari" href="contacte.html">Sol·liciteu assistència</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serveis SAT -->
+    <section class="seccio" aria-labelledby="titol-serveis">
+      <div class="contenidor">
+        <div class="intro intro--centre text-centre">
+          <span class="etiqueta">Què inclou</span>
+          <h2 id="titol-serveis">Un servei complet per al vostre equipament</h2>
+          <p>Atenem maquinari i instal·lacions d'automatització de qualsevol marca, amb un únic interlocutor per a tot el que necessiteu.</p>
+        </div>
+        <div class="serveis-detall">
+          <article class="servei-detall">
+            <h3>Diagnòstic i reparació</h3>
+            <p>Localització de l'origen real de l'avaria —elèctrica, electrònica, pneumàtica o de control— i reparació amb garantia de funcionament.</p>
+          </article>
+          <article class="servei-detall">
+            <h3>Manteniment preventiu i correctiu</h3>
+            <p>Plans de revisió periòdica adaptats al ritme de la vostra planta i actuacions correctives ràpides quan apareixen incidències.</p>
+          </article>
+          <article class="servei-detall">
+            <h3>Suport telefònic i a distància</h3>
+            <p>Assessorament immediat per telèfon i connexió remota quan és possible: moltes incidències es resolen sense desplaçament.</p>
+          </article>
+          <article class="servei-detall">
+            <h3>Disponibilitat de recanvis</h3>
+            <p>Identificació i subministrament de recanvis i components, amb alternatives equivalents quan els originals ja no estan disponibles.</p>
+          </article>
+          <article class="servei-detall">
+            <h3>Revisions i auditories tècniques</h3>
+            <p>Revisió de l'estat de les instal·lacions, auditories de línies i informes amb propostes de millora prioritzades.</p>
+          </article>
+          <article class="servei-detall">
+            <h3>Modernització de maquinari</h3>
+            <p>Quan reparar ja no surt a compte, us proposem retrofits i actualitzacions que allarguen la vida útil de l'equipament.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Manteniment (ancora des d'index) -->
+    <section class="seccio seccio--turquesa" id="manteniment" aria-labelledby="titol-manteniment">
+      <div class="contenidor">
+        <div class="dues-columnes">
+          <div>
+            <span class="etiqueta">Manteniment</span>
+            <h2 id="titol-manteniment">Anticipar-se sempre surt més econòmic</h2>
+            <p>Un pla de manteniment preventiu redueix les parades no programades, allarga la vida del maquinari i us dóna previsibilitat sobre els costos de manteniment.</p>
+            <p>Dissenyem el pla a mida de la vostra planta: freqüència de revisió, punts de control, registres d'intervenció i recomanacions d'estoc de recanvis crítics.</p>
+            <a class="boto" href="contacte.html">Demaneu una proposta de manteniment</a>
+          </div>
+          <!-- TODO foto -->
+          <div class="foto-placeholder foto-placeholder--petit">
+            Foto: tècnic realitzant una revisió de manteniment en un quadre elèctric industrial
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Xifres / compromisos -->
+    <section class="seccio" aria-labelledby="titol-compromisos">
+      <div class="contenidor">
+        <div class="intro intro--centre text-centre">
+          <span class="etiqueta">El nostre compromís</span>
+          <h2 id="titol-compromisos">Rapidesa, proximitat i transparència</h2>
+        </div>
+        <div class="xifres">
+          <div class="xifra">
+            <span class="xifra__valor">Resposta àgil</span>
+            <span class="xifra__criteri">Prioritzem les urgències productives i us mantenim informats en tot moment.</span>
+          </div>
+          <div class="xifra">
+            <span class="xifra__valor">A prop vostre</span>
+            <span class="xifra__criteri">Des de Sabadell donem cobertura a tot l'àrea de Barcelona i la resta de Catalunya.</span>
+          </div>
+          <div class="xifra">
+            <span class="xifra__valor">Sense sorpreses</span>
+            <span class="xifra__criteri">Pressupost clar abans d'actuar i informe de la intervenció un cop acabada.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA final -->
+    <section class="cta-final text-centre" aria-labelledby="titol-cta">
+      <div class="contenidor">
+        <h2 id="titol-cta">Teniu una màquina aturada o voleu prevenir-ne les avaries?</h2>
+        <p>Truqueu-nos al <a href="tel:+34936940054">+34 93 694 00 54</a> o deixeu-nos un missatge i us respondrem al més aviat possible.</p>
+        <div class="hero__accions">
+          <a class="boto boto--clar" href="contacte.html">Sol·liciteu assistència</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="peu">
+    <div class="contenidor">
+      <div class="peu__graella">
+        <div class="peu__logo">
+          <img src="assets/logo_web.png" alt="Bitecnic Automation SL" width="1279" height="341">
+          <p>Automatització industrial a mida i servei d'assistència tècnica fiable per a la vostra indústria.</p>
+        </div>
+        <div>
+          <h3>Navegació</h3>
+          <ul>
+            <li><a href="index.html">Inici</a></li>
+            <li><a href="automatitzacions.html">Automatitzacions</a></li>
+            <li><a href="sat.html">SAT</a></li>
+            <li><a href="nosaltres.html">Qui som</a></li>
+            <li><a href="contacte.html">Contacte</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contacte</h3>
+          <ul>
+            <li><a href="tel:+34936940054">+34 93 694 00 54</a></li>
+            <li>Av. Can Bordoll 119 D7<br>08202 Sabadell</li>
+            <li><a href="https://bitecnic.com" rel="noopener">bitecnic.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="peu__legal">
+        <p>© 2026 Bitecnic Automation SL · NIF B56279862 · Av. Can Bordoll 119 D7, 08202 Sabadell · +34 93 694 00 54</p>
+        <div class="peu__legal-links">
+          <a href="avis-legal.html">Avís legal</a>
+          <a href="privacitat.html">Privacitat</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

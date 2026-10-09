@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacte — Bitecnic Automation SL</title>
+  <meta name="description" content="Contacteu amb Bitecnic Automation SL: telèfon +34 93 694 00 54, seu a Sabadell (Av. Can Bordoll 119 D7) i formulari de contacte per a projectes d'automatització i assistència tècnica.">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="saltar" href="#contingut">Salta al contingut principal</a>
+
+  <header class="capcalera">
+    <div class="contenidor capcalera__interior">
+      <a class="logo" href="index.html">
+        <img src="assets/logo_web.png" alt="Bitecnic Automation SL — inici" width="1279" height="341">
+      </a>
+      <button class="nav__alternador" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Obre el menú de navegació</span>
+      </button>
+      <nav class="nav" id="menu-principal" aria-label="Menú principal">
+        <ul class="nav__llista">
+          <li><a class="nav__enllac" href="index.html">Inici</a></li>
+          <li><a class="nav__enllac" href="automatitzacions.html">Automatitzacions</a></li>
+          <li><a class="nav__enllac" href="sat.html">SAT</a></li>
+          <li><a class="nav__enllac" href="nosaltres.html">Qui som</a></li>
+          <li><a class="nav__enllac" href="contacte.html" aria-current="page">Contacte</a></li>
+          <li><a class="boto nav__cta" href="contacte.html">Demana pressupost</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contingut">
+    <!-- Hero intern -->
+    <section class="hero hero--intern">
+      <div class="contenidor">
+        <div class="hero__contingut">
+          <span class="etiqueta">Contacte</span>
+          <h1>Parlem del vostre projecte</h1>
+          <p class="hero__subtitol">Una consulta, un pressupost o una màquina aturada: poseu-vos en contacte amb nosaltres i us respondrem al més aviat possible.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dades + formulari -->
+    <section class="seccio" aria-labelledby="titol-contacte">
+      <div class="contenidor">
+        <div class="dues-columnes">
+          <div>
+            <h2 id="titol-contacte">Com contactar-hi</h2>
+            <div class="dades-contacte">
+              <div class="dada">
+                <h3>Telèfon</h3>
+                <p><a href="tel:+34936940054">+34 93 694 00 54</a></p>
+              </div>
+              <div class="dada">
+                <h3>Seu</h3>
+                <p>Av. Can Bordoll 119 D7<br>08202 Sabadell (Barcelona)<br>
+                  <a href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Can+Bordoll+119+D7,+08202+Sabadell" target="_blank" rel="noopener">Veure a Google Maps</a>
+                </p>
+              </div>
+              <div class="dada">
+                <h3>Horari d'atenció</h3>
+                <p>Dilluns a divendres, en horari d'oficina.<br>Per a incidències urgents, truqueu-nos directament.</p>
+              </div>
+              <div class="dada">
+                <h3>Web</h3>
+                <p><a href="https://bitecnic.com" rel="noopener">bitecnic.com</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2>Formulari de contacte</h2>
+            <!-- TODO backend: cal connectar aquest formulari a un servei de correu
+                 (action='' actual). Quan hi hagi backend, indicar-ne l'URL a action. -->
+            <form class="formulari" action="" method="post" novalidate>
+              <div class="camp">
+                <label for="nom">Nom i cognoms <span class="obligatori" aria-hidden="true">*</span></label>
+                <input type="text" id="nom" name="nom" autocomplete="name" required>
+              </div>
+              <div class="camp">
+                <label for="correu">Correu electrònic <span class="obligatori" aria-hidden="true">*</span></label>
+                <input type="email" id="correu" name="correu" autocomplete="email" required>
+              </div>
+              <div class="camp">
+                <label for="telefon">Telèfon</label>
+                <input type="tel" id="telefon" name="telefon" autocomplete="tel">
+              </div>
+              <div class="camp">
+                <label for="missatge">Missatge <span class="obligatori" aria-hidden="true">*</span></label>
+                <textarea id="missatge" name="missatge" required></textarea>
+              </div>
+              <button class="boto" type="submit">Enviar missatge</button>
+              <p class="formulari__nota">Els camps marcats amb * són obligatoris. En enviar el formulari, rebrem el vostre missatge per correu electrònic i us respondrem tan aviat com puguem.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Foto -->
+    <section class="seccio seccio--gris" aria-label="Imatge de contacte">
+      <div class="contenidor">
+        <!-- TODO foto -->
+        <div class="foto-placeholder foto-placeholder--petit">
+          Foto: façana o oficines de Bitecnic Automation SL a Sabadell
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="peu">
+    <div class="contenidor">
+      <div class="peu__graella">
+        <div class="peu__logo">
+          <img src="assets/logo_web.png" alt="Bitecnic Automation SL" width="1279" height="341">
+          <p>Automatització industrial a mida i servei d'assistència tècnica fiable per a la vostra indústria.</p>
+        </div>
+        <div>
+          <h3>Navegació</h3>
+          <ul>
+            <li><a href="index.html">Inici</a></li>
+            <li><a href="automatitzacions.html">Automatitzacions</a></li>
+            <li><a href="sat.html">SAT</a></li>
+            <li><a href="nosaltres.html">Qui som</a></li>
+            <li><a href="contacte.html">Contacte</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contacte</h3>
+          <ul>
+            <li><a href="tel:+34936940054">+34 93 694 00 54</a></li>
+            <li>Av. Can Bordoll 119 D7<br>08202 Sabadell</li>
+            <li><a href="https://bitecnic.com" rel="noopener">bitecnic.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="peu__legal">
+        <p>© 2026 Bitecnic Automation SL · NIF B56279862 · Av. Can Bordoll 119 D7, 08202 Sabadell · +34 93 694 00 54</p>
+        <div class="peu__legal-links">
+          <a href="avis-legal.html">Avís legal</a>
+          <a href="privacitat.html">Privacitat</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
